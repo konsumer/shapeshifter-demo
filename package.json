@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "test:schema": "graphql --project=swapi get-schema -o swapi.graphql",
-    "test:props": "shapeshifter --prop-types swapi.graphql > swapi.props.js",
+    "test:props": "shapeshifter --prop-types swapi.graphql",
     "test": "npm run test:schema && npm run test:props"
   },
   "devDependencies": {

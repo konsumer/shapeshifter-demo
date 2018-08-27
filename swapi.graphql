@@ -1,5 +1,5 @@
 # source: https://api.graphcms.com/simple/v1/swapi
-# timestamp: Mon Aug 27 2018 12:16:05 GMT-0700 (Pacific Daylight Time)
+# timestamp: Mon Aug 27 2018 12:54:50 GMT-0700 (Pacific Daylight Time)
 
 enum _ModelMutationType {
   CREATED
