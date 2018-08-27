@@ -1,0 +1,14 @@
+{
+  "name": "shapeshifter-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "test:schema": "graphql --project=swapi get-schema -o swapi.graphql",
+    "test:props": "shapeshifter --prop-types swapi.graphql > swapi.props.js",
+    "test": "npm run test:schema && npm run test:props"
+  },
+  "devDependencies": {
+    "graphql-cli": "^2.16.5",
+    "shapeshifter": "^7.1.0",
+    "shapeshifter-parser-graphql": "^1.0.0"
+  }
+}
