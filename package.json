@@ -7,8 +7,10 @@
     "test": "npm run test:schema && npm run test:props"
   },
   "devDependencies": {
-    "graphql-cli": "^2.16.5",
-    "shapeshifter": "^7.1.0",
-    "shapeshifter-parser-graphql": "^1.0.0"
+    "graphql-cli": "^2.16.5"
+  },
+  "dependencies": {
+    "shapeshifter": "^7.2.0",
+    "shapeshifter-parser-graphql": "^1.0.1"
   }
 }
